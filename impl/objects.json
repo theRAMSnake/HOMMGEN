@@ -1,0 +1,519 @@
+{
+    "categories":
+    [
+        {
+            "category": "economy",
+            "items": [
+                {
+                    "id": "windmill",
+                    "func": "green_strict",
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "watermill",
+                    "func": "green_strict",
+                    "sizex": 3,
+                    "sizey": 2
+                },
+                {
+                    "id": "deposit",
+                    "func": "identity",
+                    "modifier": 3,
+                    "dynamic": true,
+                    "guard": "middle",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "sawmill",
+                    "func": "yellow_smooth",
+                    "guard": "bottom",
+                    "value": 3000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "ore_pit",
+                    "func": "yellow_smooth",
+                    "guard": "bottom",
+                    "value": 3000,
+                    "sizex": 3,
+                    "sizey": 4
+                },
+                {
+                    "id": "sulphur_pit",
+                    "func": "yellow_smooth",
+                    "guard": "bottom",
+                    "value": 12000,
+                    "sizex": 3,
+                    "sizey": 4
+                },
+                {
+                    "id": "crystal_mine",
+                    "func": "yellow_smooth",
+                    "guard": "bottom",
+                    "value": 12000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "gold_mine",
+                    "func": "linear",
+                    "guard": "bottom",
+                    "value": 20000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "gem_mine",
+                    "func": "yellow_smooth",
+                    "guard": "bottom_right",
+                    "value": 12000,
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "alchemist_lab",
+                    "func": "yellow_smooth",
+                    "guard": "top",
+                    "value": 12000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "pidorasik",
+                    "func": "green_strict",
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "dwarwen_mine",
+                    "func": "yellow_smooth",
+                    "guard": "left",
+                    "value": 15000,
+                    "sizex": 4,
+                    "sizey": 4
+                },
+                {
+                    "id": "abandon_mine",
+                    "func": "yellow_smooth",
+                    "sizex": 3,
+                    "sizey": 3
+                }
+            ]
+        },
+        {
+            "category": "hero",
+            "items": [
+                {
+                    "id": "arena",
+                    "func": "linear",
+                    "guard": "bottom",
+                    "value": 21000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "defence_tower",
+                    "func": "identity",
+                    "guard": "bottom",
+                    "value": 7000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "spellshop",
+                    "func": "linear",
+                    "guard": "bottom",
+                    "value": 45000,
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "library_enlightment",
+                    "func": "linear++",
+                    "guard": "bottom",
+                    "value": 90000,
+                    "sizex": 5,
+                    "sizey": 5
+                },
+                {
+                    "id": "war_academy",
+                    "func": "yellow_smooth",
+                    "guard": "bottom",
+                    "value": 14000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "exp_stone",
+                    "func": "green_strict",
+                    "guard": "bottom",
+                    "value": 5000,
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "knowledge_crystal",
+                    "func": "identity",
+                    "guard": "bottom_right",
+                    "value": 7000,
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "attack_bonus",
+                    "func": "identity",
+                    "guard": "bottom_right",
+                    "value": 7000,
+                    "sizex": 3,
+                    "sizey": 2
+                },
+                {
+                    "id": "spellpower_bonus",
+                    "func": "identity",
+                    "guard": "bottom",
+                    "value": 7000,
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "level_up_tree",
+                    "func": "red++",
+                    "guard": "right",
+                    "value": 90000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "witch_hut",
+                    "func": "green_strict",
+                    "guard": "bottom",
+                    "value": 7000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "spell1",
+                    "func": "green_strict",
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "spell2",
+                    "func": "green_strict",
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "spell3",
+                    "func": "yellow_smooth",
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "spell_academy",
+                    "func": "identity",
+                    "guard": "bottom_right",
+                    "value": 14000,
+                    "sizex": 4,
+                    "sizey": 5
+                }
+            ]
+        },
+        {
+            "category": "adventure",
+            "items": [
+                {
+                    "id": "astrologist",
+                    "func": "red++",
+                    "guard": "top",
+                    "value": 90000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "well",
+                    "func": "identity",
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "mana_fontan",
+                    "func": "linear",
+                    "sizex": 4,
+                    "sizey": 3
+                },
+                {
+                    "id": "thief_guild",
+                    "func": "linear",
+                    "guard": "bottom_right",
+                    "value": 25000,
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "fortune_idol",
+                    "func": "identity",
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "fontan_of_youth",
+                    "func": "identity",
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "cartograph",
+                    "func": "red++",
+                    "guard": "bottom",
+                    "value": 150000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "stables",
+                    "func": "identity",
+                    "sizex": 1,
+                    "sizey": 2
+                },
+                {
+                    "id": "oasis",
+                    "func": "identity",
+                    "sizex": 3,
+                    "sizey": 2
+                },
+                {
+                    "id": "obelisk",
+                    "func": "identity",
+                    "guard": "bottom",
+                    "value": 45000,
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "observatory",
+                    "func": "identity",
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "eye_of_the_magi",
+                    "func": "identity",
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "flag",
+                    "func": "identity",
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "sanctuary",
+                    "func": "identity",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "shop",
+                    "func": "identity",
+                    "guard": "bottom",
+                    "value": 10000,
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "fontan_of_luck",
+                    "func": "identity",
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "hut_of_the_magi",
+                    "func": "identity",
+                    "guard": "bottom_right",
+                    "value": 15000,
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "mother_earth",
+                    "func": "identity",
+                    "sizex": 1,
+                    "sizey": 1
+                }
+            ]
+        },
+        {
+            "category": "artifacts",
+            "items": [
+                {
+                    "id": "artifact_shop",
+                    "func": "linear",
+                    "guard": "bottom_right",
+                    "value": 100000,
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "warrior_grave",
+                    "func": "linear",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "art_minor",
+                    "func": "green_smooth",
+                    "guard": "bottom",
+                    "value": 10000,
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "art_major",
+                    "func": "linear",
+                    "guard": "bottom",
+                    "value": 25000,
+                    "sizex": 1,
+                    "sizey": 1
+                },
+                {
+                    "id": "art_reliq",
+                    "func": "red++",
+                    "guard": "bottom",
+                    "value": 75000,
+                    "sizex": 1,
+                    "sizey": 1
+                }
+            ]
+        },
+        {
+            "category": "creature",
+            "items": [
+                {
+                    "id": "elemental_prison",
+                    "func": "identity",
+                    "guard": "bottom",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "refugee_camp",
+                    "func": "green_smooth",
+                    "sizex": 2,
+                    "sizey": 3
+                },
+                {
+                    "id": "elemental_dwelling",
+                    "func": "green_smooth",
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "level1",
+                    "func": "identity",
+                    "sizex": 3,
+                    "sizey": 2
+                },
+                {
+                    "id": "level2",
+                    "func": "identity",
+                    "sizex": 2,
+                    "sizey": 2
+                },
+                {
+                    "id": "level3",
+                    "func": "identity",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "level4_5",
+                    "func": "linear",
+                    "sizex": 4,
+                    "sizey": 4
+                },
+                {
+                    "id": "level6",
+                    "func": "linear",
+                    "value": 15000,
+                    "sizex": 4,
+                    "sizey": 4,
+                    "guard": "bottom"
+                },
+                {
+                    "id": "level7",
+                    "func": "linear",
+                    "value": 35000,
+                    "sizex": 4,
+                    "sizey": 4,
+                    "guard": "bottom"
+                },
+                {
+                    "id": "level_full",
+                    "func": "red++",
+                    "value": 100000,
+                    "sizex": 4,
+                    "sizey": 4,
+                    "guard": "bottom"
+                }
+            ]
+        },
+        {
+            "category": "banks",
+            "items": [
+                {
+                    "id": "elemental_stockpile",
+                    "func": "identity",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "blood_temple",
+                    "func": "linear",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "crypt",
+                    "func": "green_smooth",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "gnome_treasury",
+                    "func": "identity",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "mage_treasury",
+                    "func": "identity",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "dragon_utopia",
+                    "func": "red++",
+                    "sizex": 7,
+                    "sizey": 7
+                },
+                {
+                    "id": "gargoyle_vault",
+                    "func": "green_smooth",
+                    "sizex": 3,
+                    "sizey": 3
+                },
+                {
+                    "id": "ents_vault",
+                    "func": "linear",
+                    "sizex": 3,
+                    "sizey": 3
+                }
+            ]
+        }
+    ]
+}
